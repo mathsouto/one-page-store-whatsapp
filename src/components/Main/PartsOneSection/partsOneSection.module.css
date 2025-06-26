@@ -1,0 +1,184 @@
+.mainPartsOne {
+  width: 100%;
+}
+
+.containerPartsOne {
+  width: 80%;
+  max-width: 1400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 3% auto 2% auto;
+}
+
+.titleParts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 3%;
+}
+
+.titleParts h2 {
+  color: var(--blue);
+  font-weight: normal;
+  white-space: nowrap;
+  margin: 0;
+  padding: 0 20px;
+}
+
+.titleParts::before,
+.titleParts::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background-color: var(--black);
+  opacity: 0.7;
+}
+
+.sliderPartsOne {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contentPartsOne {
+  width: 100%;
+  overflow: hidden;
+}
+
+.itemPartsOne {
+  height: 100%;
+  min-height: 350px;
+  border: 1px solid var(--black);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.infoPartsOne {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 5px;
+}
+
+.infoPartsOne img {
+  width: 100%;
+  max-width: 160px;
+  height: auto;
+  transition: transform 0.2s ease-in-out;
+  filter: drop-shadow(0px 3px 8px #00000030);
+}
+
+.namePartsOne {
+  text-align: center;
+}
+
+.markNamePartsOne {
+  color: var(--black);
+  font-weight: 200;
+  font-size: 0.9rem;
+}
+
+.titleNamePartsOne {
+  color: var(--blue);
+  font-weight: 500;
+}
+
+.moedaPartsOne {
+  font-size: 1.1rem;
+}
+
+.pricePartsOne {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.parcelaPartsOne {
+  font-size: 0.8rem;
+  font-weight: 300;
+}
+
+.buttonContainer {
+  width: 100%;
+  padding: 0 15px;
+  text-decoration: none;
+}
+
+.buttonPartsOne {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.9rem;
+  gap: 10px;
+  width: 100%;
+  padding: 10px;
+  cursor: pointer;
+  transition: all ease-in-out 0.2s;
+  border: 1px solid var(--gray-btn);
+  color: var(--gray-btn);
+  background-color: transparent;
+}
+
+.arrowLeft,
+.arrowRight {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.arrowLeft {
+  margin-right: -13px;
+}
+
+.arrowRight {
+  margin-left: -13px;
+}
+
+.arrowLeft svg,
+.arrowRight svg {
+  color: var(--white);
+  background-color: var(--gray-btn);
+  border-radius: 50%;
+  transition: all 0.2s ease-in-out;
+}
+
+.loadingText {
+  text-align: center;
+}
+
+/* Effects */
+.arrowLeft svg:active,
+.arrowRight svg:active {
+  transform: scale(0.9);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .arrowLeft svg:hover,
+  .arrowRight svg:hover {
+    background-color: var(--blue);
+  }
+
+  .infoPartsOne img:hover {
+    transform: scale(1.02);
+  }
+
+  .buttonPartsOne:hover {
+    background-color: var(--gray-btn);
+    color: var(--white);
+  }
+}

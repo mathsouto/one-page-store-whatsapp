@@ -1,0 +1,9 @@
+.mainFeedback {
+  width: 100%;
+}
+
+.containerFeedback {
+  width: 95%;
+  max-width: 1400px;
+  margin: auto;
+}

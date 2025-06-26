@@ -1,0 +1,99 @@
+footer {
+  width: 100%;
+  display: flex;
+  background-color: var(--blue);
+  flex-direction: column;
+}
+
+.containerFooter {
+  width: 80%;
+  max-width: 1300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+.infoFooter {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.phoneFooter,
+.emailFooter,
+.addresFooter {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 20px;
+  color: var(--white);
+  font-weight: 200;
+}
+
+.iconWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 4px;
+  background-color: var(--light-blue);
+}
+
+.socialsFooter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.logoFooter img {
+  width: 100%;
+  max-width: 160px;
+  height: auto;
+}
+
+.iconsFooter {
+  display: flex;
+  gap: 20px;
+}
+
+.iconWrapper.iconSocialFooter a {
+  display: flex;
+}
+
+.iconWrapper.iconSocialFooter a svg {
+  color: var(--white);
+  transition: transform ease-in-out 0.2s;
+}
+
+.rightsFooter {
+  width: 100%;
+  background-color: var(--light-blue);
+  display: flex;
+  justify-content: center;
+  font-weight: 200;
+}
+
+.rightsFooter p {
+  color: var(--white);
+  font-size: 0.7rem;
+  padding: 5px 0;
+}
+
+/* Effects */
+@media (hover: hover) and (pointer: fine) {
+  .iconWrapper.iconSocialFooter a svg:hover {
+    transform: scale(1.1);
+  }
+}
+
+/* Media Querie */
+@media screen and (max-width: 768px) {
+  .containerFooter {
+    flex-direction: column;
+    gap: 50px;
+  }
+}

@@ -1,0 +1,155 @@
+.mainPartsTwo {
+  width: 100%;
+  background: linear-gradient(90deg, var(--red) 0%, var(--blue) 100%);
+}
+
+.containerPartsTwo {
+  width: 80%;
+  max-width: 1400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 3% auto;
+}
+
+.sliderPartsTwo {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contentPartsTwo {
+  width: 100%;
+  overflow: hidden;
+}
+
+.itemPartsTwo {
+  height: 100%;
+  min-height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.infoPartsTwo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 5px;
+}
+
+.infoPartsTwo img {
+  width: 100%;
+  max-width: 160px;
+  height: auto;
+  transition: transform 0.2s ease-in-out;
+  filter: drop-shadow(0px 3px 8px #00000030);
+}
+
+.namePartsTwo {
+  text-align: center;
+}
+
+.markNamePartsTwo {
+  color: var(--white);
+  font-weight: 200;
+  font-size: 0.9rem;
+}
+
+.titleNamePartsTwo {
+  color: var(--white);
+  font-weight: 500;
+}
+
+.moedaPartsTwo {
+  font-size: 1.1rem;
+}
+
+.pricePartsTwo {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.2rem;
+  text-align: center;
+  color: var(--white);
+}
+
+.parcelaPartsTwo {
+  font-size: 0.8rem;
+  font-weight: 300;
+  color: var(--white);
+}
+
+.buttonContainer {
+  width: 100%;
+  padding: 0 15px;
+  text-decoration: none;
+}
+
+.buttonPartsTwo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 0.9rem;
+  width: 100%;
+  padding: 10px;
+  cursor: pointer;
+  transition: all ease-in-out 0.2s;
+  border: 1px solid var(--white);
+  color: var(--white);
+  background-color: transparent;
+}
+
+.arrowLeft,
+.arrowRight {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.arrowLeft {
+  margin-right: -13px;
+}
+
+.arrowRight {
+  margin-left: -13px;
+}
+
+.arrowLeft svg,
+.arrowRight svg {
+  color: var(--white);
+  transition: all 0.2s ease-in-out;
+}
+
+.loadingText {
+  text-align: center;
+  color: var(--white);
+}
+
+/* Effects */
+.arrowLeft svg:active,
+.arrowRight svg:active {
+  transform: scale(0.9);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .infoPartsTwo img:hover {
+    transform: scale(1.02);
+  }
+
+  .buttonPartsTwo:hover {
+    background-color: var(--white);
+    color: var(--gray-btn);
+  }
+}

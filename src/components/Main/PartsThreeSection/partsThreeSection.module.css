@@ -1,0 +1,161 @@
+.mainPartsThree {
+  width: 100%;
+}
+
+.containerPartsThree {
+  width: 80%;
+  max-width: 1400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 2% auto 3% auto;
+}
+
+.sliderPartsThree {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contentPartsThree {
+  width: 100%;
+  overflow: hidden;
+}
+
+.itemPartsThree {
+  height: 100%;
+  min-height: 350px;
+  border: 1px solid var(--black);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.infoPartsThree {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 5px;
+}
+
+.infoPartsThree img {
+  width: 100%;
+  max-width: 160px;
+  height: auto;
+  transition: transform 0.2s ease-in-out;
+  filter: drop-shadow(0px 3px 8px #00000030);
+}
+
+.namePartsThree {
+  text-align: center;
+}
+
+.markNamePartsThree {
+  color: var(--black);
+  font-weight: 200;
+  font-size: 0.9rem;
+}
+
+.titleNamePartsThree {
+  color: var(--blue);
+  font-weight: 500;
+}
+
+.moedaPartsThree {
+  font-size: 1.1rem;
+}
+
+.pricePartsThree {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.parcelaPartsThree {
+  font-size: 0.8rem;
+  font-weight: 300;
+}
+
+.buttonContainer {
+  width: 100%;
+  padding: 0 15px;
+  text-decoration: none;
+}
+
+.buttonPartsThree {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 0.9rem;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: all ease-in-out 0.2s;
+  border: 1px solid var(--gray-btn);
+  color: var(--gray-btn);
+  background-color: transparent;
+}
+
+.arrowLeft,
+.arrowRight {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.arrowLeft {
+  margin-right: -13px;
+}
+
+.arrowRight {
+  margin-left: -13px;
+}
+
+.arrowLeft svg,
+.arrowRight svg {
+  color: var(--white);
+  background-color: var(--gray-btn);
+  border-radius: 50%;
+  transition: all 0.2s ease-in-out;
+}
+
+.loadingText {
+  text-align: center;
+}
+
+/* Effects*/
+.arrowLeft svg:active,
+.arrowRight svg:active {
+  transform: scale(0.9);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .arrowLeft svg:hover,
+  .arrowRight svg:hover {
+    background-color: var(--blue);
+  }
+
+  .infoPartsThree img:hover {
+    transform: scale(1.02);
+  }
+
+  .buttonPartsThree:hover {
+    background-color: var(--gray-btn);
+    color: var(--white);
+  }
+}

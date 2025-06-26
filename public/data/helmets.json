@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "marca": "LS2",
+    "nome": "FF353 Rapid Stratus Azul",
+    "preco": "5000,90",
+    "parclQtd": "3", 
+    "parclValor": "99.99",
+    "imagem": "/images/helmets/LS2FF353/1.png",
+    "whatsapp": "https://wa.me/5599999999999?text=Tenho%20interesse%20no%20Capacete%20LS2%20FF353%20Rapid%20Stratus%20Azul"
+  },
+  {
+    "id": 2,
+    "marca": "LS2",
+    "nome": "FF353 Rapid Cromo Rosa",
+    "preco": "5000,90",
+    "parclQtd": "8", 
+    "parclValor": "52.99",
+    "imagem": "/images/helmets/LS2FF353/2.png",
+    "whatsapp": "https://wa.me/5599999999999?text=Tenho%20interesse%20no%20Capacete%20LS2%20FF353%20Rapid%20Cromo%20Rosa"
+  },
+  {
+    "id": 3,
+    "marca": "LS2",
+    "nome": "FF353 Tagline Black Orange",
+    "preco": "5000,90",
+    "parclQtd": "8", 
+    "parclValor": "18.99",
+    "imagem": "/images/helmets/LS2FF353/3.png",
+    "whatsapp": "https://wa.me/5599999999999?text=Tenho%20interesse%20no%20Capacete%20LS2%20FF353%20Tagline%20Black%20Orange"
+  },
+  {
+    "id": 4,
+    "nome": "FF302 Grand Prix Brasil",
+    "marca": "Norisk",
+    "preco": "5000,90",
+    "parclQtd": "10", 
+    "parclValor": "54.99",
+    "imagem": "/images/helmets/FF302/1.png",
+    "whatsapp": "https://wa.me/5599999999999?text=Tenho%20interesse%20no%20Capacete%20Norisk%20Ff302%20Grand%20Prix%20Brasil"
+  },
+  {
+    "id": 5,
+    "marca": "Norisk",
+    "nome": "Soul FF302 Grand Prix Italy",
+    "preco": "5000,90",
+    "parclQtd": "4", 
+    "parclValor": "55.99",
+    "imagem": "/images/helmets/FF302/3.png",
+    "whatsapp": "https://wa.me/5599999999999?text=Tenho%20interesse%20no%20Capacete%20Norisk%20Soul%20FF302%20Grand%20Prix%20Italy"
+  },
+  {
+    "id": 6,
+    "marca": "Norisk",
+    "nome": "FF302 Grand Prix Usa",
+    "preco": "5000,90",
+    "parclQtd": "5", 
+    "parclValor": "12.99",
+    "imagem": "/images/helmets/FF302/2.png",
+    "whatsapp": "https://wa.me/5599999999999?text=Tenho%20interesse%20no%20Capacete%20Norisk%20Ff302%20Grand%20Prix%20Usa"
+  }
+]

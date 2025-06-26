@@ -1,0 +1,22 @@
+.mainCTA {
+  width: 100%;
+}
+
+.containerCTA {
+  width: 95%;
+  height: 120px;
+  max-width: 1400px;
+  margin: auto;
+  background: linear-gradient(90deg, var(--red) 0%, var(--blue) 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  padding: 0 10px;
+}
+
+.containerCTA p {
+  color: var(--white);
+  font-weight: 200;
+  text-align: center;
+}

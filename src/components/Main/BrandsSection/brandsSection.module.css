@@ -1,0 +1,30 @@
+.mainBrands {
+  width: 100%;
+}
+
+.containerBrands {
+  width: 95%;
+  height: 120px;
+  max-width: 1400px;
+  margin: auto;
+  background: var(--blue);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.iconsBrands {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.iconsBrands img {
+  max-height: clamp(26px, 6vw, 60px);
+  width: auto;
+  height: auto;
+  object-fit: fill;
+}

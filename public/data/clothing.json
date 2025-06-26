@@ -1,0 +1,152 @@
+[
+  {
+    "id": 1,
+    "marca": "Givi",
+    "nome": "Z Jaqueta Tradicional",
+    "preco": "2.99",
+    "parclQtd": "5",
+    "parclValor": "55.99",
+    "imagem": "/images/clothing/cr/cr-tradicional.png",
+    "whatsapp": "https://wa.me/5599999999999?text=Tenho%20interesse%20no%20Capacete%20LS2%20FF353%20Rapid%20Stratus%20Azul"
+  },
+  {
+    "id": 2,
+    "marca": "GVS Sport",
+    "nome": "B Jaqueta Tradicional",
+    "preco": "3.99",
+    "parclQtd": "2",
+    "parclValor": "200.99",
+    "imagem": "/images/clothing/cr/cr-2.png",
+    "whatsapp": "https://wa.me/5599999999999?text=Tenho%20interesse%20no%20Capacete%20LS2%20FF353%20Rapid%20Stratus%20Azul"
+  },
+  {
+    "id": 3,
+    "marca": "X11",
+    "nome": "C Jaqueta Tradicional",
+    "preco": "4.99",
+    "parclQtd": "4",
+    "parclValor": "53.99",
+    "imagem": "/images/clothing/cr/cr-tradicional.png",
+    "whatsapp": "https://wa.me/5599999999999?text=Tenho%20interesse%20no%20Capacete%20LS2%20FF353%20Rapid%20Stratus%20Azul"
+  },
+  {
+    "id": 4,
+    "marca": "PROTORK",
+    "nome": "D Jaqueta Tradicional",
+    "preco": "5.99",
+    "parclQtd": "3",
+    "parclValor": "99.99",
+    "imagem": "/images/clothing/cr/cr-tradicional.png",
+    "whatsapp": "https://wa.me/5599999999999?text=Tenho%20interesse%20no%20Capacete%20LS2%20FF353%20Rapid%20Stratus%20Azul"
+  },
+  {
+    "id": 5,
+    "marca": "GIVI",
+    "nome": "E Jaqueta Tradicional",
+    "preco": "6.99",
+    "parclQtd": "7",
+    "parclValor": "21.99",
+    "imagem": "/images/clothing/cr/cr-tradicional.png",
+    "whatsapp": "https://wa.me/5599999999999?text=Tenho%20interesse%20no%20Capacete%20LS2%20FF353%20Rapid%20Stratus%20Azul"
+  },
+  {
+    "id": 6,
+    "marca": "California Racing",
+    "nome": "F Jaqueta Tradicional",
+    "preco": "7.99",
+    "parclQtd": "3",
+    "parclValor": "17.99",
+    "imagem": "/images/clothing/cr/cr-tradicional.png",
+    "whatsapp": "https://wa.me/5599999999999?text=Tenho%20interesse%20no%20Capacete%20LS2%20FF353%20Rapid%20Stratus%20Azul"
+  },
+    {
+    "id": 7,
+    "marca": "TMAC",
+    "nome": "G Jaqueta Tradicional",
+    "preco": "8.99",
+    "parclQtd": "4",
+    "parclValor": "95.99",
+    "imagem": "/images/clothing/cr/cr-tradicional.png",
+    "whatsapp": "https://wa.me/5599999999999?text=Tenho%20interesse%20no%20Capacete%20LS2%20FF353%20Rapid%20Stratus%20Azul"
+  },
+    {
+    "id": 8,
+    "marca": "Apex",
+    "nome": "H Jaqueta Tradicional",
+    "preco": "9.99",
+    "parclQtd": "6",
+    "parclValor": "45.99",
+    "imagem": "/images/clothing/cr/cr-tradicional.png",
+    "whatsapp": "https://wa.me/5599999999999?text=Tenho%20interesse%20no%20Capacete%20LS2%20FF353%20Rapid%20Stratus%20Azul"
+  }, 
+      {
+    "id": 9,
+    "marca": "GVS Sport",
+    "nome": "I Jaqueta Tradicional",
+    "preco": "10.99",
+    "parclQtd": "4",
+    "parclValor": "85.99",
+    "imagem": "/images/clothing/cr/cr-tradicional.png",
+    "whatsapp": "https://wa.me/5599999999999?text=Tenho%20interesse%20no%20Capacete%20LS2%20FF353%20Rapid%20Stratus%20Azul"
+  },
+  {
+    "id": 10,
+    "marca": "KYT",
+    "nome": "J Jaqueta Tradicional",
+    "preco": "11.99",
+    "parclQtd": "5",
+    "parclValor": "20.99",
+    "imagem": "/images/clothing/cr/cr-tradicional.png",
+    "whatsapp": "https://wa.me/5599999999999?text=Tenho%20interesse%20no%20Capacete%20LS2%20FF353%20Rapid%20Stratus%20Azul"
+  },
+  {
+    "id": 11,
+    "marca": "X11",
+    "nome": "K Jaqueta Tradicional",
+    "preco": "12.99",
+    "parclQtd": "3",
+    "parclValor": "35.99",
+    "imagem": "/images/clothing/cr/cr-tradicional.png",
+    "whatsapp": "https://wa.me/5599999999999?text=Tenho%20interesse%20no%20Capacete%20LS2%20FF353%20Rapid%20Stratus%20Azul"
+  },
+  {
+    "id": 12,
+    "marca": "California Racing",
+    "nome": "L Jaqueta Tradicional",
+    "preco": "13.99",
+    "parclQtd": "5",
+    "parclValor": "14.99",
+    "imagem": "/images/clothing/cr/cr-tradicional.png",
+    "whatsapp": "https://wa.me/5599999999999?text=Tenho%20interesse%20no%20Capacete%20LS2%20FF353%20Rapid%20Stratus%20Azul"
+  },
+  {
+    "id": 13,
+    "marca": "TMAC",
+    "nome": "M Jaqueta Tradicional",
+    "preco": "14.99",
+    "parclQtd": "7",
+    "parclValor": "20.99",
+    "imagem": "/images/clothing/cr/cr-tradicional.png",
+    "whatsapp": "https://wa.me/5599999999999?text=Tenho%20interesse%20no%20Capacete%20LS2%20FF353%20Rapid%20Stratus%20Azul"
+  },
+  {
+    "id": 14,
+    "marca": "GIVI",
+    "nome": "N Jaqueta Tradicional",
+    "preco": "15.99",
+    "parclQtd": "3",
+    "parclValor": "34.99",
+    "imagem": "/images/clothing/cr/cr-tradicional.png",
+    "whatsapp": "https://wa.me/5599999999999?text=Tenho%20interesse%20no%20Capacete%20LS2%20FF353%20Rapid%20Stratus%20Azul"
+  },
+  {
+    "id": 15,
+    "marca": "PROTORK",
+    "nome": "O Jaqueta Tradicional",
+    "preco": "16.99",
+    "parclQtd": "4",
+    "parclValor": "14.99",
+    "imagem": "/images/clothing/cr/cr-tradicional.png",
+    "whatsapp": "https://wa.me/5599999999999?text=Tenho%20interesse%20no%20Capacete%20LS2%20FF353%20Rapid%20Stratus%20Azul"
+  }
+]

@@ -1,0 +1,99 @@
+header {
+  width: 100%;
+  min-height: 135px;
+  display: flex;
+}
+
+.containerHeader {
+  width: 80%;
+  max-width: 1300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.navOne img {
+  width: 100%;
+  max-width: 160px;
+  height: auto;
+}
+
+.navTwo {
+  display: flex;
+  gap: 15px;
+}
+
+.navButtons {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.navButtons a {
+  color: var(--blue);
+  text-decoration: none;
+  position: relative;
+}
+
+.navButtons a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 1px;
+  width: 0%;
+  background-color: var(--red);
+  transition: width 0.2s ease-in-out;
+}
+
+.navButtons .navLink {
+  cursor: pointer;
+}
+
+.navSocials {
+  display: flex;
+  gap: 10px;
+}
+
+.navSocials a {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  border-radius: 50%;
+  transition: transform ease-in-out 0.2s;
+  will-change: transform;
+  transform: translateZ(0);
+  backface-visibility: hidden;
+}
+
+/* Effects */
+@media (hover: hover) and (pointer: fine) {
+  .navButtons a:hover {
+    content: "";
+  }
+
+  .navButtons a:hover::after {
+    width: 100%;
+  }
+
+  .navSocials a:hover {
+    transform: scale(1.1);
+  }
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  header {
+    margin-top: 20px;
+    min-height: 90px;
+  }
+
+  .containerHeader {
+    justify-content: center;
+  }
+
+  .navTwo {
+    display: none;
+  }
+}
