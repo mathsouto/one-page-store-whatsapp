@@ -39,7 +39,9 @@ function Footer() {
 
         <div className={styles.socialsFooter}>
           <div className={styles.logoFooter}>
-            <img src="/images/logoWhite.png" alt="logo" />
+            <a href="/">
+              <img src="/images/logoWhite.png" alt="logo" />
+            </a>
           </div>
           <div className={styles.iconsFooter}>
             <div className={`${styles.iconWrapper} ${styles.iconSocialFooter}`}>

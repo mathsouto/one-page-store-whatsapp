@@ -7,7 +7,9 @@ function Header() {
     <header>
       <div className={styles.containerHeader}>
         <div className={styles.navOne}>
-          <img src="/images/logoColor.png" alt="logo" />
+          <a href="/">
+            <img src="/images/logoColor.png" alt="logo" />
+          </a>
         </div>
         <div className={styles.navTwo}>
           <div className={styles.navButtons}>
