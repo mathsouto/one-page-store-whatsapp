@@ -118,23 +118,23 @@ function ClothingSection() {
                       <p className={styles.markNameClothing}>{produto.marca}</p>
                       <p className={styles.titleNameClothing}>{produto.nome}</p>
                     </div>
-                    <div className={styles.priceClothing}>
-                      <p className={styles.moedaClothing}>R${produto.preco}</p>
-                      <p className={styles.parcelaClothing}>
-                        {produto.parclQtd}x de R${produto.parclValor} sem juros
-                      </p>
-                    </div>
                   </div>
-                  <a
-                    className={styles.buttonContainer}
-                    href={produto.whatsapp}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <button className={styles.buttonClothing}>
-                      <FaWhatsapp /> Confira
-                    </button>
-                  </a>
+                  <div className={styles.priceClothing}>
+                    <p className={styles.moedaClothing}>R${produto.preco}</p>
+                    <p className={styles.parcelaClothing}>
+                      {produto.parclQtd}x de R${produto.parclValor} sem juros
+                    </p>
+                    <a
+                      className={styles.buttonContainer}
+                      href={produto.whatsapp}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <button className={styles.buttonClothing}>
+                        <FaWhatsapp /> Confira
+                      </button>
+                    </a>
+                  </div>
                 </div>
               ))}
             </div>

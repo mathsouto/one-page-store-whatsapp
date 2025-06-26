@@ -130,8 +130,8 @@ function HelmetsSection() {
                       <div className={styles.itemHelmets}>
                         <div className={styles.infoHelmets}>
                           <img
-                            alt={produto.nome || "Capacete"}
                             src={produto.imagem}
+                            alt={produto.nome || "Capacete"}
                             onClick={() => openModal(produto.imagem)}
                             style={{ cursor: "pointer" }}
                           />
@@ -143,26 +143,26 @@ function HelmetsSection() {
                               {produto.nome}
                             </p>
                           </div>
-                          <div className={styles.priceHelmets}>
-                            <p className={styles.moedaHelmets}>
-                              R${produto.preco}
-                            </p>
-                            <p className={styles.parcelaHelmets}>
-                              {produto.parclQtd}x de R${produto.parclValor} sem
-                              juros
-                            </p>
-                          </div>
                         </div>
-                        <a
-                          className={styles.buttonContainer}
-                          href={produto.whatsapp}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          <button className={styles.buttonHelmets}>
-                            <LuShoppingCart /> Comprar
-                          </button>
-                        </a>
+                        <div className={styles.priceHelmets}>
+                          <p className={styles.moedaHelmets}>
+                            R${produto.preco}
+                          </p>
+                          <p className={styles.parcelaHelmets}>
+                            {produto.parclQtd}x de R${produto.parclValor} sem
+                            juros
+                          </p>
+                          <a
+                            className={styles.buttonContainer}
+                            href={produto.whatsapp}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <button className={styles.buttonHelmets}>
+                              <LuShoppingCart /> Comprar
+                            </button>
+                          </a>
+                        </div>
                       </div>
                     </SwiperSlide>
                   ))}

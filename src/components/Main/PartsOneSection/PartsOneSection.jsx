@@ -142,26 +142,26 @@ function PartsOneSection() {
                               {produto.nome}
                             </p>
                           </div>
-                          <div className={styles.pricePartsOne}>
-                            <p className={styles.moedaPartsOne}>
-                              R${produto.preco}
-                            </p>
-                            <p className={styles.parcelaPartsOne}>
-                              {produto.parclQtd}x de R${produto.parclValor} sem
-                              juros
-                            </p>
-                          </div>
                         </div>
-                        <a
-                          className={styles.buttonContainer}
-                          href={produto.whatsapp}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          <button className={styles.buttonPartsOne}>
-                            <LuShoppingCart /> Comprar
-                          </button>
-                        </a>
+                        <div className={styles.pricePartsOne}>
+                          <p className={styles.moedaPartsOne}>
+                            R${produto.preco}
+                          </p>
+                          <p className={styles.parcelaPartsOne}>
+                            {produto.parclQtd}x de R${produto.parclValor} sem
+                            juros
+                          </p>
+                          <a
+                            className={styles.buttonContainer}
+                            href={produto.whatsapp}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <button className={styles.buttonPartsOne}>
+                              <LuShoppingCart /> Comprar
+                            </button>
+                          </a>
+                        </div>
                       </div>
                     </SwiperSlide>
                   ))}

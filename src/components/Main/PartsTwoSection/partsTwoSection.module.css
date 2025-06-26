@@ -31,7 +31,7 @@
   min-height: 350px;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
   flex-direction: column;
   padding: 5px;
 }
@@ -41,8 +41,9 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  gap: 10px;
+  gap: 5px;
   margin-bottom: 5px;
+  margin-top: 20px;
 }
 
 .infoPartsTwo img {
@@ -60,7 +61,7 @@
 .markNamePartsTwo {
   color: var(--white);
   font-weight: 200;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
 }
 
 .titleNamePartsTwo {
@@ -73,6 +74,7 @@
 }
 
 .pricePartsTwo {
+  width: 100%;
   display: flex;
   flex-direction: column;
   font-size: 1.2rem;
@@ -88,15 +90,15 @@
 
 .buttonContainer {
   width: 100%;
-  padding: 0 15px;
   text-decoration: none;
+  padding: 0 10px;
 }
 
 .buttonPartsTwo {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 10px;
+  gap: 5px;
   font-size: 0.9rem;
   width: 100%;
   padding: 10px;
@@ -105,6 +107,8 @@
   border: 1px solid var(--white);
   color: var(--white);
   background-color: transparent;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .arrowLeft,

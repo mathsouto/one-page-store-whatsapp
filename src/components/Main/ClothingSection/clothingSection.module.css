@@ -48,16 +48,10 @@
 }
 
 .orderWrapperClothing {
-  /* border-radius: 4px; */
   padding: 1px 5px;
   cursor: pointer;
   outline: none;
   text-align: center;
-}
-
-.orderWrapperClothing p {
-  font-weight: normal;
-  font-family: "Poppins", sans-serif;
 }
 
 .contentClothing {
@@ -100,7 +94,7 @@
 .markNameClothing {
   color: var(--black);
   font-weight: 200;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
 }
 
 .titleNameClothing {
@@ -113,6 +107,7 @@
 }
 
 .priceClothing {
+  width: 100%;
   display: flex;
   flex-direction: column;
   font-size: 1.2rem;
@@ -126,15 +121,15 @@
 
 .buttonContainer {
   width: 100%;
-  padding: 0 15px;
   text-decoration: none;
+  padding: 0 10px;
 }
 
 .buttonClothing {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 10px;
+  gap: 5px;
   width: 100%;
   font-size: 0.9rem;
   padding: 10px;
@@ -143,6 +138,7 @@
   border: 1px solid var(--gray-btn);
   color: var(--gray-btn);
   background-color: transparent;
+  margin-top: 5px;
   margin-bottom: 5px;
 }
 

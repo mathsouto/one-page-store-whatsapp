@@ -31,7 +31,7 @@
   border: 1px solid var(--black);
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
   flex-direction: column;
   padding: 5px;
 }
@@ -41,8 +41,9 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  gap: 10px;
+  gap: 5px;
   margin-bottom: 5px;
+  margin-top: 20px;
 }
 
 .infoPartsThree img {
@@ -60,7 +61,7 @@
 .markNamePartsThree {
   color: var(--black);
   font-weight: 200;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
 }
 
 .titleNamePartsThree {
@@ -73,6 +74,7 @@
 }
 
 .pricePartsThree {
+  width: 100%;
   display: flex;
   flex-direction: column;
   font-size: 1.2rem;
@@ -86,8 +88,8 @@
 
 .buttonContainer {
   width: 100%;
-  padding: 0 15px;
   text-decoration: none;
+  padding: 0 10px;
 }
 
 .buttonPartsThree {
@@ -98,13 +100,13 @@
   font-size: 0.9rem;
   width: 100%;
   padding: 10px;
-  border: none;
-  outline: none;
   cursor: pointer;
   transition: all ease-in-out 0.2s;
   border: 1px solid var(--gray-btn);
   color: var(--gray-btn);
   background-color: transparent;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .arrowLeft,
