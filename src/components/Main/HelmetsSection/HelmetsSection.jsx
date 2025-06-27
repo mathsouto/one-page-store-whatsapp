@@ -6,6 +6,7 @@ import { Navigation, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import { LuShoppingCart } from "react-icons/lu";
+import { motion } from "framer-motion";
 
 Modal.setAppElement("#root");
 
@@ -59,14 +60,45 @@ function HelmetsSection() {
     setModalImage(null);
   }
 
+  const h2Variants = {
+    hidden: { opacity: 0, x: -35 },
+    visible: {
+      opacity: 1,
+      x: 0,
+      transition: {
+        delay: 0.3,
+        duration: 0.6,
+        ease: "easeInOut",
+      },
+    },
+  };
+
+  const pVariants = {
+    hidden: { opacity: 0, x: 35 },
+    visible: {
+      opacity: 1,
+      x: 0,
+      transition: {
+        delay: 0.3,
+        duration: 0.6,
+        ease: "easeInOut",
+      },
+    },
+  };
+
   return (
     <>
       <div className={styles.mainHelmets}>
         <div id="capacetes" className={styles.containerHelmets}>
-          <div className={styles.titleHelmets}>
-            <h2>Capacetes</h2>
-            <p>Mais vendidos</p>
-          </div>
+          <motion.div
+            className={styles.titleHelmets}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.5 }}
+          >
+            <motion.h2 variants={h2Variants}>Capacetes</motion.h2>
+            <motion.p variants={pVariants}>Mais vendidos</motion.p>
+          </motion.div>
           <div className={styles.sliderHelmets}>
             <div ref={prevRef} className={styles.arrowLeft}>
               <svg

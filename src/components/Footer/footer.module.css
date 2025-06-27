@@ -1,4 +1,4 @@
-footer {
+.mainFooter {
   width: 100%;
   display: flex;
   background-color: var(--blue);
@@ -12,7 +12,7 @@ footer {
   align-items: center;
   justify-content: space-between;
   margin: 0 auto;
-  padding: 40px 0;
+  padding: 60px 0 0 0;
 }
 
 .infoFooter {
@@ -46,7 +46,7 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 10px;
+  gap: 20px;
 }
 
 .logoFooter img {
@@ -57,7 +57,7 @@ footer {
 
 .iconsFooter {
   display: flex;
-  gap: 20px;
+  gap: 15px;
 }
 
 .iconWrapper.iconSocialFooter a {
@@ -69,18 +69,39 @@ footer {
   transition: transform ease-in-out 0.2s;
 }
 
-.rightsFooter {
-  width: 100%;
-  background-color: var(--light-blue);
-  display: flex;
-  justify-content: center;
-  font-weight: 200;
+.lineFooter {
+  width: 80%;
+  max-width: 1300px;
+  height: 1px;
+  background-color: var(--white);
+  margin: 40px auto;
 }
 
-.rightsFooter p {
+.endFooter {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1300px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px 40px 10px;
+}
+
+.endMenuFooter {
+  display: flex;
+  gap: 25px;
+}
+
+.endMenuFooter a {
+  font-weight: 200;
+  font-size: 0.9rem;
   color: var(--white);
-  font-size: 0.7rem;
-  padding: 5px 0;
+  cursor: pointer;
+}
+
+.copyFooter {
+  color: var(--white);
+  font-weight: 200;
+  font-size: 0.9rem;
 }
 
 /* Effects */
