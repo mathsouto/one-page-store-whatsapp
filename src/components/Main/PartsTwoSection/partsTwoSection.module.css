@@ -29,6 +29,7 @@
 .titlePartsTwo {
   text-align: center;
   color: var(--white);
+  padding-bottom: 15px;
 }
 
 .itemPartsTwo {
