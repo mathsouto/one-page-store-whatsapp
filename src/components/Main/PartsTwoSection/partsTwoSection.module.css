@@ -27,9 +27,16 @@
 }
 
 .titlePartsTwo {
-  text-align: center;
-  color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding-bottom: 15px;
+}
+
+.titlePartsTwo p {
+  color: var(--white);
+  padding-bottom: 3px;
+  border-bottom: 1px solid var(--white);
 }
 
 .itemPartsTwo {

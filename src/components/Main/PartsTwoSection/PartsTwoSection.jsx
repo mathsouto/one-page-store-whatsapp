@@ -81,7 +81,7 @@ function PartsTwoSection() {
             </div>
             <div className={styles.contentPartsTwo}>
               <div className={styles.titlePartsTwo}>
-                Lorem ipsum dolor sit amet consectetur adipisicing.
+                <p>A melhor escolha para você e a sua moto</p>
               </div>
               {partsTwo.length > 0 ? (
                 <Swiper
