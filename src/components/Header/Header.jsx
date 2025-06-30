@@ -43,7 +43,7 @@ function Header() {
           </div>
           <div className={styles.navSocials}>
             <a
-              href="https://facebook.com"
+              href="https://www.facebook.com/fanpagewingmotos/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -51,14 +51,14 @@ function Header() {
             </a>
 
             <a
-              href="https://instagram.com"
+              href="https://www.instagram.com/wingmotos/"
               target="_blank"
               rel="noopener noreferrer"
             >
               <FaInstagram size={22} color="#fff" />
             </a>
             <a
-              href="https://tiktok.com"
+              href="https://www.tiktok.com/@wingmotos"
               target="_blank"
               rel="noopener noreferrer"
             >

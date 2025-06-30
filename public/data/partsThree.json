@@ -3,100 +3,100 @@
     "id": 1,
     "marca": "Marca",
     "nome": "Peça 1",
-    "preco": "49,99",
-    "parclQtd": "3",  
-    "parclValor": "14.99",
+    "preco": "X.XX",
+    "parclQtd": "X",  
+    "parclValor": "X.XX",
     "imagem": "/images/parts/partsOne/parts.png",
-    "whatsapp": "https://wa.me/5599999999999?text=Tenho%20interesse%20na%20Peça%201"
+    "whatsapp": "https://wa.me/551127134750?text=Tenho%20interesse%20no%20(Produto)"
   },
   {
     "id": 2,
     "marca": "Marca",
     "nome": "Peça 2",
-    "preco": "54,90",
-    "parclQtd": "4",  
-    "parclValor": "18.99",
+    "preco": "X.XX",
+    "parclQtd": "X",  
+    "parclValor": "X.XX",
     "imagem": "/images/parts/partsOne/parts.png",
-    "whatsapp": "https://wa.me/5599999999999?text=Tenho%20interesse%20na%20Peça%202"
+    "whatsapp": "https://wa.me/551127134750?text=Tenho%20interesse%20no%20(Produto)"
   },
   {
     "id": 3,
     "marca": "Marca",
     "nome": "Peça 3",
-    "preco": "59,99",
-    "parclQtd": "3",  
-    "parclValor": "24.99",
+    "preco": "X.XX",
+    "parclQtd": "X",  
+    "parclValor": "X.XX",
     "imagem": "/images/parts/partsOne/parts.png",
-    "whatsapp": "https://wa.me/5599999999999?text=Tenho%20interesse%20na%20Peça%203"
+    "whatsapp": "https://wa.me/551127134750?text=Tenho%20interesse%20no%20(Produto)"
   },
   {
     "id": 4,
     "marca": "Marca",
     "nome": "Peça 4",
-    "preco": "44,90",
-    "parclQtd": "5",  
-    "parclValor": "29.99",
+    "preco": "X.XX",
+    "parclQtd": "X",  
+    "parclValor": "X.XX",
     "imagem": "/images/parts/partsOne/parts.png",
-    "whatsapp": "https://wa.me/5599999999999?text=Tenho%20interesse%20na%20Peça%204"
+    "whatsapp": "https://wa.me/551127134750?text=Tenho%20interesse%20no%20(Produto)"
   },
   {
     "id": 5,
     "marca": "Marca",
     "nome": "Peça 5",
-    "preco": "39,99",
-    "parclQtd": "3",  
-    "parclValor": "14.99",
+    "preco": "X.XX",
+    "parclQtd": "X",  
+    "parclValor": "X.XX",
     "imagem": "/images/parts/partsOne/parts.png",
-    "whatsapp": "https://wa.me/5599999999999?text=Tenho%20interesse%20na%20Peça%205"
+    "whatsapp": "https://wa.me/551127134750?text=Tenho%20interesse%20no%20(Produto)"
   },
   {
     "id": 6,
     "marca": "Marca",
     "nome": "Peça 6",
-    "preco": "64,90",
-    "parclQtd": "6",  
-    "parclValor": "4.99",
+    "preco": "X.XX",
+    "parclQtd": "X",  
+    "parclValor": "X.XX",
     "imagem": "/images/parts/partsOne/parts.png",
-    "whatsapp": "https://wa.me/5599999999999?text=Tenho%20interesse%20na%20Peça%206"
+    "whatsapp": "https://wa.me/551127134750?text=Tenho%20interesse%20no%20(Produto)"
   },
   {
     "id": 7,
     "marca": "Marca",
     "nome": "Peça 7",
-    "preco": "69,90",
-    "parclQtd": "5",  
-    "parclValor": "9.99",
+    "preco": "X.XX",
+    "parclQtd": "X",  
+    "parclValor": "X.XX",
     "imagem": "/images/parts/partsOne/parts.png",
-    "whatsapp": "https://wa.me/5599999999999?text=Tenho%20interesse%20na%20Peça%207"
+    "whatsapp": "https://wa.me/551127134750?text=Tenho%20interesse%20no%20(Produto)"
   },
   {
     "id": 8,
     "marca": "Marca",
     "nome": "Peça 8",
-    "preco": "74,99",
-    "parclQtd": "4",  
-    "parclValor": "12.99",
+    "preco": "X.XX",
+    "parclQtd": "X",  
+    "parclValor": "X.XX",
     "imagem": "/images/parts/partsOne/parts.png",
-    "whatsapp": "https://wa.me/5599999999999?text=Tenho%20interesse%20na%20Peça%208"
+    "whatsapp": "https://wa.me/551127134750?text=Tenho%20interesse%20no%20(Produto)"
   },
   {
     "id": 9,
     "marca": "Marca",
     "nome": "Peça 9",
-    "preco": "79,90",
-    "parclQtd": "3",  
-    "parclValor": "14.99",
+    "preco": "X.XX",
+    "parclQtd": "X",  
+    "parclValor": "X.XX",
     "imagem": "/images/parts/partsOne/parts.png",
-    "whatsapp": "https://wa.me/5599999999999?text=Tenho%20interesse%20na%20Peça%209"
+    "whatsapp": "https://wa.me/551127134750?text=Tenho%20interesse%20no%20(Produto)"
   },
   {
     "id": 10,
     "marca": "Marca",
     "nome": "Peça 10",
-    "preco": "84,90",
-    "parclQtd": "6",  
-    "parclValor": "24.99",
+    "preco": "X.XX",
+    "parclQtd": "X",  
+    "parclValor": "X.XX",
     "imagem": "/images/parts/partsOne/parts.png",
-    "whatsapp": "https://wa.me/5599999999999?text=Tenho%20interesse%20na%20Peça%2010"
+    "whatsapp": "https://wa.me/551127134750?text=Tenho%20interesse%20no%20(Produto)"
   }
 ]

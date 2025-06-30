@@ -84,8 +84,7 @@ function ClothingSection() {
         <div id="vestuario" className={styles.containerClothing}>
           <div className={styles.menuClothing}>
             <div className={styles.titleClothing}>
-              <h2>Nosso</h2>
-              <h2>vestuario</h2>
+              <h2>Vestuario</h2>
             </div>
             <div className={styles.orderContainerClothing}>
               <p className={styles.orderTextCloting}>Ordenar por</p>

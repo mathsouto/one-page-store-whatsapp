@@ -25,7 +25,7 @@ function Footer() {
               <div className={styles.iconWrapper}>
                 <FaEnvelope size={20} />
               </div>
-              <p>cpd@wingmotos.com.br</p>
+              <p>atendimento@wingmotos.com.br</p>
             </div>
             <div className={styles.addresFooter}>
               <div className={styles.iconWrapper}>

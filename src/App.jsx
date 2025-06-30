@@ -2,8 +2,10 @@ import React, { lazy, Suspense } from "react";
 import style from "./app.module.css";
 import WhatsappButton from "./components/WhatsappButton/WhatsappButton";
 import Header from "./components/Header/Header";
-import PromotionsSection from "./components/Main/PromotionsSection/PromotionsSection";
 
+const LazyPromotionSection = lazy(() =>
+  import("./components/Main/PromotionsSection/PromotionsSection")
+);
 const LazyCategorySection = lazy(() =>
   import("./components/Main/CategorySection/CategorySection")
 );
@@ -46,8 +48,8 @@ const App = () => {
       <Header />
       <div className={style.wrapperApp}>
         <WhatsappButton />
-        <PromotionsSection />
         <Suspense>
+          <LazyPromotionSection />
           <LazyCategorySection />
           <LazyHelmetsSection />
           <LazyBrandsSection />

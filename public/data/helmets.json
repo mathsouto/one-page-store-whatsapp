@@ -1,72 +1,62 @@
 [
   {
-    "id": 1,
+    "id": 2001,
     "marca": "LS2",
     "nome": "FF353 Rapid Stratus Azul",
-    "preco": "5000,90",
-    "parclQtd": "3", 
-    "parclValor": "99.99",
+    "preco": "X.XX",
+    "parclQtd": "X", 
+    "parclValor": "X.XX",
     "imagem": "/images/helmets/LS2FF353/1.png",
-    "whatsapp": "https://wa.me/5599999999999?text=Tenho%20interesse%20no%20Capacete%20LS2%20FF353%20Rapid%20Stratus%20Azul"
+    "whatsapp": "https://wa.me/551127134750?text=Tenho%20interesse%20no%20(Produto)"
   },
   {
-    "id": 2,
+    "id": 2002,
     "marca": "LS2",
     "nome": "FF353 Rapid Cromo Rosa",
-    "preco": "5000,90",
-    "parclQtd": "8", 
-    "parclValor": "52.99",
+    "preco": "X.XX",
+    "parclQtd": "X", 
+    "parclValor": "X.XX",
     "imagem": "/images/helmets/LS2FF353/2.png",
-    "whatsapp": "https://wa.me/5599999999999?text=Tenho%20interesse%20no%20Capacete%20LS2%20FF353%20Rapid%20Cromo%20Rosa"
+    "whatsapp": "https://wa.me/551127134750?text=Tenho%20interesse%20no%20(Produto)"
   },
   {
-    "id": 3,
+    "id": 2003,
     "marca": "LS2",
     "nome": "FF353 Tagline Black Orange",
-    "preco": "5000,90",
-    "parclQtd": "8", 
-    "parclValor": "18.99",
+    "preco": "X.XX",
+    "parclQtd": "X", 
+    "parclValor": "X.XX",
     "imagem": "/images/helmets/LS2FF353/3.png",
-    "whatsapp": "https://wa.me/5599999999999?text=Tenho%20interesse%20no%20Capacete%20LS2%20FF353%20Tagline%20Black%20Orange"
+    "whatsapp": "https://wa.me/551127134750?text=Tenho%20interesse%20no%20(Produto)"
   },
   {
-    "id": 4,
+    "id": 2004,
     "nome": "FF302 Grand Prix Brasil",
     "marca": "Norisk",
-    "preco": "5000,90",
-    "parclQtd": "10", 
-    "parclValor": "54.99",
+    "preco": "X.XX",
+    "parclQtd": "X", 
+    "parclValor": "X.XX",
     "imagem": "/images/helmets/FF302/1.png",
-    "whatsapp": "https://wa.me/5599999999999?text=Tenho%20interesse%20no%20Capacete%20Norisk%20Ff302%20Grand%20Prix%20Brasil"
+    "whatsapp": "https://wa.me/551127134750?text=Tenho%20interesse%20no%20(Produto)"
   },
   {
-    "id": 5,
+    "id": 2005,
     "marca": "Norisk",
     "nome": "Soul FF302 Grand Prix Italy",
-    "preco": "5000,90",
-    "parclQtd": "4", 
-    "parclValor": "55.99",
+    "preco": "X.XX",
+    "parclQtd": "X", 
+    "parclValor": "X.XX",
     "imagem": "/images/helmets/FF302/3.png",
-    "whatsapp": "https://wa.me/5599999999999?text=Tenho%20interesse%20no%20Capacete%20Norisk%20Soul%20FF302%20Grand%20Prix%20Italy"
+    "whatsapp": "https://wa.me/551127134750?text=Tenho%20interesse%20no%20(Produto)"
   },
   {
-    "id": 6,
+    "id": 2006,
     "marca": "Norisk",
     "nome": "FF302 Grand Prix Usa",
-    "preco": "5000,90",
-    "parclQtd": "5", 
-    "parclValor": "12.99",
+    "preco": "X.XX",
+    "parclQtd": "X", 
+    "parclValor": "X.XX",
     "imagem": "/images/helmets/FF302/2.png",
-    "whatsapp": "https://wa.me/5599999999999?text=Tenho%20interesse%20no%20Capacete%20Norisk%20Ff302%20Grand%20Prix%20Usa"
-  },
-    {
-    "id": 7,
-    "marca": "Teste",
-    "nome": "FF302 Grand Prix Usa Teste",
-    "preco": "1,90",
-    "parclQtd": "3", 
-    "parclValor": "12.99",
-    "imagem": "/images/helmets/FF302/2.png",
-    "whatsapp": "https://wa.me/5599999999999?text=Tenho%20interesse%20no%20Capacete%20Norisk%20Ff302%20Grand%20Prix%20Usa"
+    "whatsapp": "https://wa.me/551127134750?text=Tenho%20interesse%20no%20(Produto)"
   }
 ]

@@ -20,11 +20,6 @@
   align-items: center;
 }
 
-.titleClothing {
-  display: flex;
-  gap: 10px;
-}
-
 .titleClothing h2 {
   color: var(--blue);
   font-weight: 400;
@@ -176,16 +171,6 @@
 @media screen and (max-width: 768px) {
   .gridClothing {
     grid-template-columns: repeat(2, 1fr);
-  }
-
-  .titleClothing {
-    flex-direction: column;
-    gap: 0;
-    align-items: flex-start;
-  }
-
-  .titleClothing h2 + h2 {
-    margin-top: -9px;
   }
 
   .orderWrapperClothingothing {

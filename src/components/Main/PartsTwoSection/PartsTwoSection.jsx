@@ -80,6 +80,9 @@ function PartsTwoSection() {
               </svg>
             </div>
             <div className={styles.contentPartsTwo}>
+              <div className={styles.titlePartsTwo}>
+                Lorem ipsum dolor sit amet consectetur adipisicing.
+              </div>
               {partsTwo.length > 0 ? (
                 <Swiper
                   ref={swiperRef}

@@ -26,6 +26,11 @@
   overflow: hidden;
 }
 
+.titlePartsTwo {
+  text-align: center;
+  color: var(--white);
+}
+
 .itemPartsTwo {
   height: 100%;
   min-height: 350px;

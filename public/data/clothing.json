@@ -1,152 +1,152 @@
 [
   {
-    "id": 1,
+    "id": 1001,
     "marca": "California Racing",
     "nome": "Jaqueta Tradicional Preto",
-    "preco": "2.99",
-    "parclQtd": "5",
-    "parclValor": "55.99",
+    "preco": "X.XX",
+    "parclQtd": "X",
+    "parclValor": "X.XX",
     "imagem": "/images/clothing/cr/cr-tradicional.png",
-    "whatsapp": "https://wa.me/5599999999999?text=Tenho%20interesse%20no%20Capacete%20LS2%20FF353%20Rapid%20Stratus%20Azul"
+    "whatsapp": "https://wa.me/551127134750?text=Tenho%20interesse%20no%20(Produto)"
   },
   {
-    "id": 2,
+    "id": 1002,
     "marca": "California Racing",
     "nome": "Jaqueta Tradicional Preto/Cinza",
-    "preco": "3.99",
-    "parclQtd": "2",
-    "parclValor": "200.99",
+    "preco": "X.XX",
+    "parclQtd": "X",
+    "parclValor": "X.XX",
     "imagem": "/images/clothing/cr/cr-2.png",
-    "whatsapp": "https://wa.me/5599999999999?text=Tenho%20interesse%20no%20Capacete%20LS2%20FF353%20Rapid%20Stratus%20Azul"
+    "whatsapp": "https://wa.me/551127134750?text=Tenho%20interesse%20no%20(Produto)"
   },
   {
-    "id": 3,
+    "id": 1003,
     "marca": "California Racing",
     "nome": "Jaqueta Refletiva Preto",
-    "preco": "4.99",
-    "parclQtd": "4",
-    "parclValor": "53.99",
+    "preco": "X.XX",
+    "parclQtd": "X",
+    "parclValor": "X.XX",
     "imagem": "/images/clothing/cr/cr-refletiva.png",
-    "whatsapp": "https://wa.me/5599999999999?text=Tenho%20interesse%20no%20Capacete%20LS2%20FF353%20Rapid%20Stratus%20Azul"
+    "whatsapp": "https://wa.me/551127134750?text=Tenho%20interesse%20no%20(Produto)"
   },
   {
-    "id": 4,
-    "marca": "PROTORK",
-    "nome": "D Jaqueta Tradicional",
-    "preco": "5.99",
-    "parclQtd": "3",
-    "parclValor": "99.99",
+    "id": 1004,
+    "marca": "Marca",
+    "nome": "Item",
+    "preco": "X.XX",
+    "parclQtd": "X",
+    "parclValor": "X.XX",
     "imagem": "/images/clothing/cr/cr-tradicional.png",
-    "whatsapp": "https://wa.me/5599999999999?text=Tenho%20interesse%20no%20Capacete%20LS2%20FF353%20Rapid%20Stratus%20Azul"
+    "whatsapp": "https://wa.me/551127134750?text=Tenho%20interesse%20no%20(Produto)"
   },
   {
-    "id": 5,
-    "marca": "GIVI",
-    "nome": "E Jaqueta Tradicional",
-    "preco": "6.99",
-    "parclQtd": "7",
-    "parclValor": "21.99",
+    "id": 1005,
+    "marca": "Marca",
+    "nome": "Item",
+    "preco": "X.XX",
+    "parclQtd": "X",
+    "parclValor": "X.XX",
     "imagem": "/images/clothing/cr/cr-tradicional.png",
-    "whatsapp": "https://wa.me/5599999999999?text=Tenho%20interesse%20no%20Capacete%20LS2%20FF353%20Rapid%20Stratus%20Azul"
+    "whatsapp": "https://wa.me/551127134750?text=Tenho%20interesse%20no%20(Produto)"
   },
   {
-    "id": 6,
-    "marca": "California Racing",
-    "nome": "F Jaqueta Tradicional",
-    "preco": "7.99",
-    "parclQtd": "3",
-    "parclValor": "17.99",
+    "id": 1006,
+    "marca": "Marca",
+    "nome": "Item",
+    "preco": "X.XX",
+    "parclQtd": "X",
+    "parclValor": "X.XX",
     "imagem": "/images/clothing/cr/cr-tradicional.png",
-    "whatsapp": "https://wa.me/5599999999999?text=Tenho%20interesse%20no%20Capacete%20LS2%20FF353%20Rapid%20Stratus%20Azul"
-  },
-    {
-    "id": 7,
-    "marca": "TMAC",
-    "nome": "G Jaqueta Tradicional",
-    "preco": "8.99",
-    "parclQtd": "4",
-    "parclValor": "95.99",
-    "imagem": "/images/clothing/cr/cr-tradicional.png",
-    "whatsapp": "https://wa.me/5599999999999?text=Tenho%20interesse%20no%20Capacete%20LS2%20FF353%20Rapid%20Stratus%20Azul"
-  },
-    {
-    "id": 8,
-    "marca": "Apex",
-    "nome": "H Jaqueta Tradicional",
-    "preco": "9.99",
-    "parclQtd": "6",
-    "parclValor": "45.99",
-    "imagem": "/images/clothing/cr/cr-tradicional.png",
-    "whatsapp": "https://wa.me/5599999999999?text=Tenho%20interesse%20no%20Capacete%20LS2%20FF353%20Rapid%20Stratus%20Azul"
-  }, 
-      {
-    "id": 9,
-    "marca": "GVS Sport",
-    "nome": "I Jaqueta Tradicional",
-    "preco": "10.99",
-    "parclQtd": "4",
-    "parclValor": "85.99",
-    "imagem": "/images/clothing/cr/cr-tradicional.png",
-    "whatsapp": "https://wa.me/5599999999999?text=Tenho%20interesse%20no%20Capacete%20LS2%20FF353%20Rapid%20Stratus%20Azul"
+    "whatsapp": "https://wa.me/551127134750?text=Tenho%20interesse%20no%20(Produto)"
   },
   {
-    "id": 10,
-    "marca": "KYT",
-    "nome": "J Jaqueta Tradicional",
-    "preco": "11.99",
-    "parclQtd": "5",
-    "parclValor": "20.99",
+    "id": 1007,
+    "marca": "Marca",
+    "nome": "Item",
+    "preco": "X.XX",
+    "parclQtd": "X",
+    "parclValor": "X.XX",
     "imagem": "/images/clothing/cr/cr-tradicional.png",
-    "whatsapp": "https://wa.me/5599999999999?text=Tenho%20interesse%20no%20Capacete%20LS2%20FF353%20Rapid%20Stratus%20Azul"
+    "whatsapp": "https://wa.me/551127134750?text=Tenho%20interesse%20no%20(Produto)"
   },
   {
-    "id": 11,
-    "marca": "X11",
-    "nome": "K Jaqueta Tradicional",
-    "preco": "12.99",
-    "parclQtd": "3",
-    "parclValor": "35.99",
+    "id": 1008,
+    "marca": "Marca",
+    "nome": "Item",
+    "preco": "X.XX",
+    "parclQtd": "X",
+    "parclValor": "X.XX",
     "imagem": "/images/clothing/cr/cr-tradicional.png",
-    "whatsapp": "https://wa.me/5599999999999?text=Tenho%20interesse%20no%20Capacete%20LS2%20FF353%20Rapid%20Stratus%20Azul"
+    "whatsapp": "https://wa.me/551127134750?text=Tenho%20interesse%20no%20(Produto)"
   },
   {
-    "id": 12,
-    "marca": "California Racing",
-    "nome": "L Jaqueta Tradicional",
-    "preco": "13.99",
-    "parclQtd": "5",
-    "parclValor": "14.99",
+    "id": 1009,
+    "marca": "Marca",
+    "nome": "Item",
+    "preco": "X.XX",
+    "parclQtd": "X",
+    "parclValor": "X.XX",
     "imagem": "/images/clothing/cr/cr-tradicional.png",
-    "whatsapp": "https://wa.me/5599999999999?text=Tenho%20interesse%20no%20Capacete%20LS2%20FF353%20Rapid%20Stratus%20Azul"
+    "whatsapp": "https://wa.me/551127134750?text=Tenho%20interesse%20no%20(Produto)"
   },
   {
-    "id": 13,
-    "marca": "TMAC",
-    "nome": "M Jaqueta Tradicional",
-    "preco": "14.99",
-    "parclQtd": "7",
-    "parclValor": "20.99",
+    "id": 1010,
+    "marca": "Marca",
+    "nome": "Item",
+    "preco": "X.XX",
+    "parclQtd": "X",
+    "parclValor": "X.XX",
     "imagem": "/images/clothing/cr/cr-tradicional.png",
-    "whatsapp": "https://wa.me/5599999999999?text=Tenho%20interesse%20no%20Capacete%20LS2%20FF353%20Rapid%20Stratus%20Azul"
+    "whatsapp": "https://wa.me/551127134750?text=Tenho%20interesse%20no%20(Produto)"
   },
   {
-    "id": 14,
-    "marca": "GIVI",
-    "nome": "N Jaqueta Tradicional",
-    "preco": "15.99",
-    "parclQtd": "3",
-    "parclValor": "34.99",
+    "id": 1011,
+    "marca": "Marca",
+    "nome": "Item",
+    "preco": "X.XX",
+    "parclQtd": "X",
+    "parclValor": "X.XX",
     "imagem": "/images/clothing/cr/cr-tradicional.png",
-    "whatsapp": "https://wa.me/5599999999999?text=Tenho%20interesse%20no%20Capacete%20LS2%20FF353%20Rapid%20Stratus%20Azul"
+    "whatsapp": "https://wa.me/551127134750?text=Tenho%20interesse%20no%20(Produto)"
   },
   {
-    "id": 15,
-    "marca": "PROTORK",
-    "nome": "O Jaqueta Tradicional",
-    "preco": "16.99",
-    "parclQtd": "4",
-    "parclValor": "14.99",
+    "id": 1012,
+    "marca": "Marca",
+    "nome": "Item",
+    "preco": "X.XX",
+    "parclQtd": "X",
+    "parclValor": "X.XX",
     "imagem": "/images/clothing/cr/cr-tradicional.png",
-    "whatsapp": "https://wa.me/5599999999999?text=Tenho%20interesse%20no%20Capacete%20LS2%20FF353%20Rapid%20Stratus%20Azul"
+    "whatsapp": "https://wa.me/551127134750?text=Tenho%20interesse%20no%20(Produto)"
+  },
+  {
+    "id": 1013,
+    "marca": "Marca",
+    "nome": "Item",
+    "preco": "X.XX",
+    "parclQtd": "X",
+    "parclValor": "X.XX",
+    "imagem": "/images/clothing/cr/cr-tradicional.png",
+    "whatsapp": "https://wa.me/551127134750?text=Tenho%20interesse%20no%20(Produto)"
+  },
+  {
+    "id": 1014,
+    "marca": "Marca",
+    "nome": "Item",
+    "preco": "X.XX",
+    "parclQtd": "X",
+    "parclValor": "X.XX",
+    "imagem": "/images/clothing/cr/cr-tradicional.png",
+    "whatsapp": "https://wa.me/551127134750?text=Tenho%20interesse%20no%20(Produto)"
+  },
+  {
+    "id": 1015,
+    "marca": "Marca",
+    "nome": "Item",
+    "preco": "X.XX",
+    "parclQtd": "X",
+    "parclValor": "X.XX",
+    "imagem": "/images/clothing/cr/cr-tradicional.png",
+    "whatsapp": "https://wa.me/551127134750?text=Tenho%20interesse%20no%20(Produto)"
   }
 ]
