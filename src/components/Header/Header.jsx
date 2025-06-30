@@ -47,7 +47,7 @@ function Header() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaFacebook size={25} color="#003782" />
+              <FaFacebook size={22} color="#003782" />
             </a>
 
             <a
@@ -55,14 +55,14 @@ function Header() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaInstagram size={25} color="#003782" />
+              <FaInstagram size={22} color="#003782" />
             </a>
             <a
               href="https://tiktok.com"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaTiktok size={25} color="#003782" />
+              <FaTiktok size={22} color="#003782" />
             </a>
           </div>
         </div>

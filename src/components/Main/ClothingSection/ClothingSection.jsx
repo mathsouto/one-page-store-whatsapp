@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Modal from "react-modal";
 import styles from "./clothingSection.module.css";
-import { LuShoppingCart } from "react-icons/lu";
 import { FaWhatsapp } from "react-icons/fa";
 
 Modal.setAppElement("#root");

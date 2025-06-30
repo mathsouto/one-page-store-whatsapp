@@ -5,7 +5,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
-import { LuShoppingCart } from "react-icons/lu";
+import { FaWhatsapp } from "react-icons/fa";
 import { motion } from "framer-motion";
 
 Modal.setAppElement("#root");
@@ -191,7 +191,7 @@ function HelmetsSection() {
                             rel="noopener noreferrer"
                           >
                             <button className={styles.buttonHelmets}>
-                              <LuShoppingCart /> Comprar
+                              <FaWhatsapp /> Confira
                             </button>
                           </a>
                         </div>

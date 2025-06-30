@@ -21,7 +21,7 @@ header {
 
 .navTwo {
   display: flex;
-  gap: 15px;
+  gap: 25px;
 }
 
 .navButtons {
@@ -53,14 +53,12 @@ header {
 
 .navSocials {
   display: flex;
-  gap: 10px;
+  gap: 9px;
 }
 
 .navSocials a {
   display: flex;
   align-items: center;
-  padding: 5px;
-  border-radius: 50%;
   transition: transform ease-in-out 0.2s;
   will-change: transform;
   transform: translateZ(0);
