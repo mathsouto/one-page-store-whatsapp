@@ -37,6 +37,7 @@
   color: var(--white);
   padding-bottom: 3px;
   font-weight: 200;
+  text-align: center;
 }
 
 .itemPartsTwo {
