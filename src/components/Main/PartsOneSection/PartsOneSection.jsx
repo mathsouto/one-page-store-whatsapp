@@ -64,7 +64,7 @@ function PartsOneSection() {
       <div className={styles.mainPartsOne}>
         <div id="pecas" className={styles.containerPartsOne}>
           <div className={styles.titleParts}>
-            <h2>Imperdiveis</h2>
+            <h2>Teste</h2>
           </div>
           <div className={styles.sliderPartsOne}>
             <div ref={prevRef} className={styles.arrowLeft}>

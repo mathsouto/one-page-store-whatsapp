@@ -46,8 +46,8 @@ function PromotionsSection() {
     { src: "/images/promotions/1.jpg", type: "large" },
     { src: "/images/promotions/2.jpg", type: "small" },
     { src: "/images/promotions/3.jpg", type: "small" },
-    { src: "/images/promotions/3.jpg", type: "small" },
-    { src: "/images/promotions/3.jpg", type: "small" },
+    { src: "/images/promotions/4.jpg", type: "small" },
+    { src: "/images/promotions/5.jpg", type: "small" },
   ];
 
   const renderSlides = () =>
