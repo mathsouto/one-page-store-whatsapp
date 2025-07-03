@@ -61,7 +61,7 @@ function AboutSection() {
             whileInView="visible"
             viewport={{ once: true, amount: 0.5 }}
           >
-            <img src="/images/about.jpg" alt="about-img" />
+            <img src="/images/about/about.jpg" alt="about-img" />
           </motion.div>
         </div>
       </div>

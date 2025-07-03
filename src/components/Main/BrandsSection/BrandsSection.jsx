@@ -33,28 +33,28 @@ function BrandsSection() {
       >
         <div className={styles.iconsBrands}>
           <motion.img
-            alt="givi-logo"
-            src="/images/brands/givi.png"
-            variants={itemVariants}
-          />
-          <motion.img
-            alt="gvs-logo"
-            src="/images/brands/gvs.png"
+            alt="protork-logo"
+            src="/svgs/protork.svg"
             variants={itemVariants}
           />
           <motion.img
             alt="tmac-logo"
-            src="/images/brands/tmac.png"
+            src="/svgs/tmac.svg"
             variants={itemVariants}
           />
           <motion.img
-            alt="protork-logo"
-            src="/images/brands/protork.png"
+            alt="cr-logo"
+            src="/svgs/cr.svg"
             variants={itemVariants}
           />
           <motion.img
-            alt="protork-logo"
-            src="/images/brands/protork.png"
+            alt="maggion-logo"
+            src="/svgs/maggion.svg"
+            variants={itemVariants}
+          />
+          <motion.img
+            alt="brms-logo"
+            src="/svgs/brms.svg"
             variants={itemVariants}
           />
         </div>

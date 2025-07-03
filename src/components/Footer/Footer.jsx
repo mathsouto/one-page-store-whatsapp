@@ -41,7 +41,7 @@ function Footer() {
           <div className={styles.socialsFooter}>
             <div className={styles.logoFooter}>
               <a href="/">
-                <img src="/images/logoWhite.png" alt="logo" />
+                <img src="/images/logo/logoWhite.png" alt="logo" />
               </a>
             </div>
             <div className={styles.iconsFooter}>

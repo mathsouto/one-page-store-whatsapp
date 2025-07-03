@@ -12,6 +12,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
 }
 
 .iconsBrands {
@@ -23,8 +24,24 @@
 }
 
 .iconsBrands img {
-  max-height: clamp(26px, 6vw, 60px);
-  width: auto;
+  width: 100%;
+  max-width: clamp(70px, 10vw, 120px);
   height: auto;
   object-fit: fill;
+}
+
+.iconsBrands img:nth-child(2) {
+  max-width: clamp(60px, 10vw, 110px) !important;
+}
+.iconsBrands img:nth-child(3) {
+  margin-top: 5px;
+  max-width: clamp(60px, 10vw, 110px) !important;
+}
+
+@media screen and (max-width: 768px) {
+  .iconsBrands img:nth-child(2),
+  .iconsBrands img:nth-child(3) {
+    width: 100%;
+    max-width: clamp(50px, 10vw, 100px) !important;
+  }
 }

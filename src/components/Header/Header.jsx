@@ -8,7 +8,7 @@ function Header() {
       <div className={styles.containerHeader}>
         <div className={styles.navOne}>
           <a href="/">
-            <img src="/images/logoColor.png" alt="logo" />
+            <img src="/images/logo/logoColor.png" alt="logo" />
           </a>
         </div>
         <div className={styles.navTwo}>

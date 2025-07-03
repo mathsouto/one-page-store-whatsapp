@@ -43,6 +43,7 @@ body {
 .containerApp {
   min-width: 355px;
   margin: 0 auto;
+  overflow-y: hidden;
 }
 
 .wrapperApp {

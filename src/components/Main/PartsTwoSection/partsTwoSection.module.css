@@ -36,7 +36,7 @@
 .titlePartsTwo p {
   color: var(--white);
   padding-bottom: 3px;
-  border-bottom: 1px solid var(--white);
+  font-weight: 200;
 }
 
 .itemPartsTwo {
