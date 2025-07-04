@@ -1,5 +1,6 @@
 .mainPartsThree {
   width: 100%;
+  background: radial-gradient(circle at center, #2371df, var(--blue));
 }
 
 .containerPartsThree {
@@ -9,7 +10,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 2% auto 3% auto;
+  margin: 3% auto;
 }
 
 .sliderPartsThree {
@@ -25,15 +26,29 @@
   overflow: hidden;
 }
 
+.titlePartsThree {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 1.2rem;
+}
+
+.titlePartsThree p {
+  color: var(--white);
+  padding-bottom: 3px;
+  font-weight: 300;
+  text-align: center;
+}
+
 .itemPartsThree {
   height: 100%;
   min-height: 350px;
-  border: 1px solid var(--black);
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-direction: column;
-  padding: 5px;
 }
 
 .infoPartsThree {
@@ -48,7 +63,7 @@
 
 .infoPartsThree img {
   width: 100%;
-  max-width: 160px;
+  max-width: 200px;
   height: auto;
   transition: transform 0.2s ease-in-out;
   filter: drop-shadow(0px 3px 8px #00000030);
@@ -59,14 +74,15 @@
 }
 
 .markNamePartsThree {
-  color: var(--black);
+  color: var(--white);
   font-weight: 200;
-  font-size: 0.8rem;
+  font-size: 0.75rem;
 }
 
 .titleNamePartsThree {
-  color: var(--blue);
+  color: var(--white);
   font-weight: 500;
+  font-size: 0.9rem;
 }
 
 .moedaPartsThree {
@@ -79,11 +95,13 @@
   flex-direction: column;
   font-size: 1.2rem;
   text-align: center;
+  color: var(--white);
 }
 
 .parcelaPartsThree {
   font-size: 0.8rem;
   font-weight: 300;
+  color: var(--white);
 }
 
 .buttonContainer {
@@ -96,14 +114,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 10px;
+  gap: 5px;
   font-size: 0.9rem;
   width: 100%;
   padding: 10px;
   cursor: pointer;
   transition: all ease-in-out 0.2s;
-  border: 1px solid var(--gray-btn);
-  color: var(--gray-btn);
+  border: 1px solid var(--white);
+  color: var(--white);
   background-color: transparent;
   margin-top: 5px;
   margin-bottom: 5px;
@@ -130,34 +148,34 @@
 
 .arrowLeft svg,
 .arrowRight svg {
-  color: var(--white);
-  background-color: var(--gray-btn);
-  border-radius: 50%;
+  color: var(--black);
   transition: all 0.2s ease-in-out;
 }
 
 .loadingText {
   text-align: center;
+  color: var(--white);
 }
 
-/* Effects*/
+/* Effects */
 .arrowLeft svg:active,
 .arrowRight svg:active {
   transform: scale(0.9);
 }
 
 @media (hover: hover) and (pointer: fine) {
-  .arrowLeft svg:hover,
-  .arrowRight svg:hover {
-    background-color: var(--blue);
-  }
-
   .infoPartsThree img:hover {
     transform: scale(1.02);
   }
 
   .buttonPartsThree:hover {
-    background-color: var(--gray-btn);
-    color: var(--white);
+    background-color: var(--white);
+    color: var(--gray-btn);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .containerPartsThree {
+    padding: 4% 0;
   }
 }

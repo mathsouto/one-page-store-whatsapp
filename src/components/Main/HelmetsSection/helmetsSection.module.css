@@ -10,7 +10,7 @@
   align-items: center;
   justify-content: center;
   gap: 10px;
-  margin: 2% auto;
+  margin: 3% auto;
 }
 
 .titleHelmets h2 {
@@ -70,12 +70,13 @@
 .markNameHelmets {
   color: var(--black);
   font-weight: 200;
-  font-size: 0.8rem;
+  font-size: 0.75rem;
 }
 
 .titleNameHelmets {
   color: var(--blue);
   font-weight: 500;
+  font-size: 0.9rem;
 }
 
 .moedaHelmets {

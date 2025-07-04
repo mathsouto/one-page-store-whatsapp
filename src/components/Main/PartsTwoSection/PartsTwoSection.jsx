@@ -66,8 +66,8 @@ function PartsTwoSection() {
           <div className={styles.sliderPartsTwo}>
             <div ref={prevRef} className={styles.arrowLeft}>
               <svg
-                width="35"
-                height="35"
+                width="30"
+                height="30"
                 viewBox="0 0 24 24"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -80,9 +80,6 @@ function PartsTwoSection() {
               </svg>
             </div>
             <div className={styles.contentPartsTwo}>
-              <div className={styles.titlePartsTwo}>
-                <p>A melhor escolha para você e a sua moto</p>
-              </div>
               {partsTwo.length > 0 ? (
                 <Swiper
                   ref={swiperRef}
@@ -98,7 +95,7 @@ function PartsTwoSection() {
                   spaceBetween={20}
                   slidesPerView={4}
                   autoplay={{
-                    delay: 2600,
+                    delay: 2500,
                     disableOnInteraction: false,
                     pauseOnMouseEnter: true,
                   }}
@@ -172,8 +169,8 @@ function PartsTwoSection() {
             </div>
             <div ref={nextRef} className={styles.arrowRight}>
               <svg
-                width="35"
-                height="35"
+                width="30"
+                height="30"
                 viewBox="0 0 24 24"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"

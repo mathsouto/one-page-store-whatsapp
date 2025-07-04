@@ -1,18 +1,18 @@
-.mainPartsTwo {
+.mainPartsFour {
   width: 100%;
 }
 
-.containerPartsTwo {
+.containerPartsFour {
   width: 80%;
   max-width: 1400px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 0 auto 2% auto;
+  margin: 2% auto 3% auto;
 }
 
-.sliderPartsTwo {
+.sliderPartsFour {
   position: relative;
   width: 100%;
   display: flex;
@@ -20,12 +20,12 @@
   justify-content: center;
 }
 
-.contentPartsTwo {
+.contentPartsFour {
   width: 100%;
   overflow: hidden;
 }
 
-.itemPartsTwo {
+.itemPartsFour {
   height: 100%;
   min-height: 350px;
   border: 1px solid var(--black);
@@ -36,7 +36,7 @@
   padding: 5px;
 }
 
-.infoPartsTwo {
+.infoPartsFour {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -46,7 +46,7 @@
   margin-top: 20px;
 }
 
-.infoPartsTwo img {
+.infoPartsFour img {
   width: 100%;
   max-width: 160px;
   height: auto;
@@ -54,27 +54,27 @@
   filter: drop-shadow(0px 3px 8px #00000030);
 }
 
-.namePartsTwo {
+.namePartsFour {
   text-align: center;
 }
 
-.markNamePartsTwo {
+.markNamePartsFour {
   color: var(--black);
   font-weight: 200;
   font-size: 0.75rem;
 }
 
-.titleNamePartsTwo {
+.titleNamePartsFour {
   color: var(--blue);
   font-weight: 500;
   font-size: 0.9rem;
 }
 
-.moedaPartsTwo {
+.moedaPartsFour {
   font-size: 1.1rem;
 }
 
-.pricePartsTwo {
+.pricePartsFour {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -82,7 +82,7 @@
   text-align: center;
 }
 
-.parcelaPartsTwo {
+.parcelaPartsFour {
   font-size: 0.8rem;
   font-weight: 300;
 }
@@ -93,7 +93,7 @@
   padding: 0 10px;
 }
 
-.buttonPartsTwo {
+.buttonPartsFour {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -153,11 +153,11 @@
     background-color: var(--blue);
   }
 
-  .infoPartsTwo img:hover {
+  .infoPartsFour img:hover {
     transform: scale(1.02);
   }
 
-  .buttonPartsTwo:hover {
+  .buttonPartsFour:hover {
     background-color: var(--gray-btn);
     color: var(--white);
   }

@@ -30,6 +30,9 @@ const LazyPartsTwoSection = lazy(() =>
 const LazyPartsThreeSection = lazy(() =>
   import("./components/Main/PartsThreeSection/PartsThreeSection")
 );
+const LazyPartsFourSection = lazy(() =>
+  import("./components/Main/PartsFourSection/PartsFourSection")
+);
 const LazyAboutSection = lazy(() =>
   import("./components/Main/AboutSection/AboutSection")
 );
@@ -58,6 +61,7 @@ const App = () => {
           <LazyPartsOneSection />
           <LazyPartsTwoSection />
           <LazyPartsThreeSection />
+          <LazyPartsFourSection />
           <LazyAboutSection />
           <LazyFeedbackSection />
           <LazyMapSection />

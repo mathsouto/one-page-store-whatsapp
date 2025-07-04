@@ -1,6 +1,6 @@
 import React, { useRef, useEffect, useState } from "react";
 import Modal from "react-modal";
-import styles from "./partsOneSection.module.css";
+import styles from "./partsFourSection.module.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Autoplay } from "swiper/modules";
 import "swiper/css";
@@ -9,12 +9,12 @@ import { FaWhatsapp } from "react-icons/fa";
 
 Modal.setAppElement("#root");
 
-function PartsOneSection() {
-  const [partsOne, setPartsOne] = useState([]);
+function PartsFourSection() {
+  const [partsFour, setPartsFour] = useState([]);
   const swiperRef = useRef(null);
 
   useEffect(() => {
-    fetch("/data/partsOne.json")
+    fetch("/data/partsFour.json")
       .then((response) => {
         if (!response.ok) {
           throw new Error(`Erro HTTP: status ${response.status}`);
@@ -22,7 +22,7 @@ function PartsOneSection() {
         return response.json();
       })
       .then((data) => {
-        setPartsOne(data);
+        setPartsFour(data);
       })
       .catch((error) => console.error("Erro ao buscar peças:", error));
   }, []);
@@ -44,7 +44,7 @@ function PartsOneSection() {
       swiperInstance.navigation.init();
       swiperInstance.navigation.update();
     }
-  }, [partsOne, prevRef, nextRef]);
+  }, [partsFour, prevRef, nextRef]);
 
   const [modalIsOpen, setModalIsOpen] = useState(false);
   const [modalImage, setModalImage] = useState(null);
@@ -61,12 +61,9 @@ function PartsOneSection() {
 
   return (
     <>
-      <div className={styles.mainPartsOne}>
-        <div id="pecas" className={styles.containerPartsOne}>
-          <div className={styles.titleParts}>
-            <h2>Confira os nossos destaques</h2>
-          </div>
-          <div className={styles.sliderPartsOne}>
+      <div className={styles.mainPartsFour}>
+        <div id="pecas" className={styles.containerPartsFour}>
+          <div className={styles.sliderPartsFour}>
             <div ref={prevRef} className={styles.arrowLeft}>
               <svg
                 width="30"
@@ -82,8 +79,8 @@ function PartsOneSection() {
                 <path d="M15 18L9 12L15 6" />
               </svg>
             </div>
-            <div className={styles.contentPartsOne}>
-              {partsOne.length > 0 ? (
+            <div className={styles.contentPartsFour}>
+              {partsFour.length > 0 ? (
                 <Swiper
                   ref={swiperRef}
                   modules={[Navigation, Autoplay]}
@@ -98,7 +95,7 @@ function PartsOneSection() {
                   spaceBetween={20}
                   slidesPerView={4}
                   autoplay={{
-                    delay: 2400,
+                    delay: 2500,
                     disableOnInteraction: false,
                     pauseOnMouseEnter: true,
                   }}
@@ -124,30 +121,30 @@ function PartsOneSection() {
                     },
                   }}
                 >
-                  {partsOne.map((produto) => (
+                  {partsFour.map((produto) => (
                     <SwiperSlide key={produto.id}>
-                      <div className={styles.itemPartsOne}>
-                        <div className={styles.infoPartsOne}>
+                      <div className={styles.itemPartsFour}>
+                        <div className={styles.infoPartsFour}>
                           <img
                             src={produto.imagem}
                             alt={produto.nome || "Peça"}
                             onClick={() => openModal(produto.imagem)}
                             style={{ cursor: "pointer" }}
                           />
-                          <div className={styles.namePartsOne}>
-                            <p className={styles.markNamePartsOne}>
+                          <div className={styles.namePartsFour}>
+                            <p className={styles.markNamePartsFour}>
                               {produto.marca}
                             </p>
-                            <p className={styles.titleNamePartsOne}>
+                            <p className={styles.titleNamePartsFour}>
                               {produto.nome}
                             </p>
                           </div>
                         </div>
-                        <div className={styles.pricePartsOne}>
-                          <p className={styles.moedaPartsOne}>
+                        <div className={styles.pricePartsFour}>
+                          <p className={styles.moedaPartsFour}>
                             R${produto.preco}
                           </p>
-                          <p className={styles.parcelaPartsOne}>
+                          <p className={styles.parcelaPartsFour}>
                             {produto.parclQtd}x de R${produto.parclValor} sem
                             juros
                           </p>
@@ -157,7 +154,7 @@ function PartsOneSection() {
                             target="_blank"
                             rel="noopener noreferrer"
                           >
-                            <button className={styles.buttonPartsOne}>
+                            <button className={styles.buttonPartsFour}>
                               <FaWhatsapp /> Confira
                             </button>
                           </a>
@@ -247,4 +244,4 @@ function PartsOneSection() {
   );
 }
 
-export default PartsOneSection;
+export default PartsFourSection;

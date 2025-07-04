@@ -89,12 +89,13 @@
 .markNameClothing {
   color: var(--black);
   font-weight: 200;
-  font-size: 0.8rem;
+  font-size: 0.75rem;
 }
 
 .titleNameClothing {
   color: var(--blue);
   font-weight: 500;
+  font-size: 0.9rem;
 }
 
 .moedaClothing {
@@ -140,7 +141,7 @@
 .gridClothing {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  gap: 20px;
+  gap: 14px;
 }
 
 /* Effects */

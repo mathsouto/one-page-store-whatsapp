@@ -64,10 +64,10 @@ function PartsThreeSection() {
       <div className={styles.mainPartsThree}>
         <div id="pecas" className={styles.containerPartsThree}>
           <div className={styles.sliderPartsThree}>
-            <div ref={prevRef} className={styles.arrowLeft}>
+            {/* <div ref={prevRef} className={styles.arrowLeft}>
               <svg
-                width="30"
-                height="30"
+                width="35"
+                height="35"
                 viewBox="0 0 24 24"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -78,8 +78,11 @@ function PartsThreeSection() {
               >
                 <path d="M15 18L9 12L15 6" />
               </svg>
-            </div>
+            </div> */}
             <div className={styles.contentPartsThree}>
+              <div className={styles.titlePartsThree}>
+                <p>A melhor escolha para você e sua moto</p>
+              </div>
               {partsThree.length > 0 ? (
                 <Swiper
                   ref={swiperRef}
@@ -95,7 +98,7 @@ function PartsThreeSection() {
                   spaceBetween={20}
                   slidesPerView={4}
                   autoplay={{
-                    delay: 2500,
+                    delay: 2600,
                     disableOnInteraction: false,
                     pauseOnMouseEnter: true,
                   }}
@@ -167,10 +170,10 @@ function PartsThreeSection() {
                 <p className={styles.loadingText}>Carregando...</p>
               )}
             </div>
-            <div ref={nextRef} className={styles.arrowRight}>
+            {/* <div ref={nextRef} className={styles.arrowRight}>
               <svg
-                width="30"
-                height="30"
+                width="35"
+                height="35"
                 viewBox="0 0 24 24"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -181,7 +184,7 @@ function PartsThreeSection() {
               >
                 <path d="M9 6L15 12L9 18" />
               </svg>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
