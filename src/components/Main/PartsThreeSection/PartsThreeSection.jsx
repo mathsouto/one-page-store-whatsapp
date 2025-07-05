@@ -64,7 +64,7 @@ function PartsThreeSection() {
       <div className={styles.mainPartsThree}>
         <div id="pecas" className={styles.containerPartsThree}>
           <div className={styles.sliderPartsThree}>
-            {/* <div ref={prevRef} className={styles.arrowLeft}>
+            <div ref={prevRef} className={styles.arrowLeft}>
               <svg
                 width="35"
                 height="35"
@@ -78,7 +78,7 @@ function PartsThreeSection() {
               >
                 <path d="M15 18L9 12L15 6" />
               </svg>
-            </div> */}
+            </div>
             <div className={styles.contentPartsThree}>
               <div className={styles.titlePartsThree}>
                 <p>A melhor escolha para você e sua moto</p>
@@ -95,8 +95,6 @@ function PartsThreeSection() {
                     swiper.params.navigation.prevEl = prevRef.current;
                     swiper.params.navigation.nextEl = nextRef.current;
                   }}
-                  spaceBetween={20}
-                  slidesPerView={4}
                   autoplay={{
                     delay: 2600,
                     disableOnInteraction: false,
@@ -110,17 +108,17 @@ function PartsThreeSection() {
                       slidesPerView: 1,
                       spaceBetween: 10,
                     },
-                    480: {
+                    650: {
                       slidesPerView: 2,
                       spaceBetween: 15,
                     },
-                    768: {
+                    930: {
                       slidesPerView: 3,
-                      spaceBetween: 20,
+                      spaceBetween: 15,
                     },
-                    1024: {
+                    1250: {
                       slidesPerView: 4,
-                      spaceBetween: 20,
+                      spaceBetween: 15,
                     },
                   }}
                 >
@@ -170,7 +168,7 @@ function PartsThreeSection() {
                 <p className={styles.loadingText}>Carregando...</p>
               )}
             </div>
-            {/* <div ref={nextRef} className={styles.arrowRight}>
+            <div ref={nextRef} className={styles.arrowRight}>
               <svg
                 width="35"
                 height="35"
@@ -184,7 +182,7 @@ function PartsThreeSection() {
               >
                 <path d="M9 6L15 12L9 18" />
               </svg>
-            </div> */}
+            </div>
           </div>
         </div>
       </div>

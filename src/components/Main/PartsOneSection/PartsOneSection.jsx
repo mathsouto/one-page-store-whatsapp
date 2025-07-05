@@ -95,8 +95,6 @@ function PartsOneSection() {
                     swiper.params.navigation.prevEl = prevRef.current;
                     swiper.params.navigation.nextEl = nextRef.current;
                   }}
-                  spaceBetween={20}
-                  slidesPerView={4}
                   autoplay={{
                     delay: 2400,
                     disableOnInteraction: false,
@@ -110,17 +108,17 @@ function PartsOneSection() {
                       slidesPerView: 1,
                       spaceBetween: 10,
                     },
-                    480: {
+                    650: {
                       slidesPerView: 2,
                       spaceBetween: 15,
                     },
-                    768: {
+                    930: {
                       slidesPerView: 3,
-                      spaceBetween: 20,
+                      spaceBetween: 15,
                     },
-                    1024: {
+                    1250: {
                       slidesPerView: 4,
-                      spaceBetween: 20,
+                      spaceBetween: 15,
                     },
                   }}
                 >
