@@ -155,6 +155,8 @@ function ClothingSection() {
             right: "auto",
             bottom: "auto",
             transform: "translate(-50%, -50%)",
+            minWidth: "300px",
+            minHeight: "200px",
             maxWidth: "90vw",
             maxHeight: "90vh",
             padding: "10px",
@@ -185,9 +187,9 @@ function ClothingSection() {
             alt=""
             src={modalImage}
             style={{
-              maxWidth: "100%",
-              maxHeight: "80vh",
-              objectFit: "contain",
+              maxWidth: "100%", // Garante que a imagem não saia da largura do modal
+              maxHeight: "100%", // Permite que a imagem ocupe a altura total disponível no modal
+              objectFit: "contain", // Redimensiona a imagem para caber, mantendo a proporção
               userSelect: "none",
             }}
             draggable={false}
